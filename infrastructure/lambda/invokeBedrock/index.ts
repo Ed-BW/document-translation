@@ -6,6 +6,7 @@ import {
 	InvokeModelCommand,
 	InvokeModelCommandInput,
 	InvokeModelCommandOutput,
+	ThrottlingException,
 } from "@aws-sdk/client-bedrock-runtime";
 
 const BEDROCK_REGION: string | undefined =

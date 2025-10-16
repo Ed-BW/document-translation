@@ -22,7 +22,7 @@ export interface props {
 
 enum Strings {
 	modelVendor = "anthropic",
-	modelMatch = "claude-3-*-*-v1:0",
+	modelMatch = "claude-*-*-v1:0",
 	modelVersion = "3",
 }
 

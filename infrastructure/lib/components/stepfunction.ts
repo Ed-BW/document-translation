@@ -35,6 +35,7 @@ export class dt_stepfunction extends Construct {
 						retention: logs.RetentionDays.INFINITE,
 					}),
 					level: sfn.LogLevel.ALL,
+					includeExecutionData: true, // Include input/output data in logs for debugging
 				},
 				tracingEnabled: true, // ASM-SF2
 				definitionBody: sfn.DefinitionBody.fromChainable(props.definition),
