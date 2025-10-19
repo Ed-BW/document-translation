@@ -21,9 +21,9 @@ export interface props {
 }
 
 enum Strings {
-	modelVendor = "amazon",
-	modelMatch = "nova-pro-v1:0",
-	modelVersion = "nova_pro",
+	modelVendor = "anthropic",
+	modelMatch = "claude-*-*-v1:0",
+	modelVersion = "3",
 }
 
 export class dt_readableWorkflow extends Construct {
